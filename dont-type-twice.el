@@ -41,7 +41,7 @@
 ;;
 ;; If you are ready to use auto-install.el (http://www.emacswiki.org/emacs/auto-install.el), just put below code to your *scratch* and eval it.
 ;;
-;;     (auto-install-from-url "http://github.com/fukamachi/dont-type-twice-el/raw/master/dont-type-twice.el)
+;;     (auto-install-from-url "http://github.com/fukamachi/dont-type-twice-el/raw/master/dont-type-twice.el")
 
 ;;; Settings:
 ;;
@@ -51,12 +51,13 @@
 ;;     (global-dont-type-twice t)
 ;;
 ;; And you open a file, then find to be notified on minibuffer when you did something stupid.
-;; Isn't it enough? You can change notification func for you.
-;; Set `dt2-notify-send' to dt2-notify-func, for example
+;; Isn't it enough? You can change notification func as you like.
+;; Set `dt2-notify-send' to dt2-notify-func, for example,
 ;;
 ;;     (setq dt2-notify-func 'dt2-notify-send)
 ;;
 ;; You would receive notification with notify-send.
+;;
 ;; For Mac users, it would be `dt2-growl' instead.
 
 ;;; Code:
